@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Item(props: any) {
   return (
-    <div className="m-6 mx-auto w-80 rounded-md bg-green-800 p-6 font-mono text-white outline outline-black">
+    <div className="m-6 mx-auto w-80 rounded-md bg-green-800 p-6 font-mono text-white shadow-lg  shadow-black ">
       <div className="flex justify-between">
         <img
           src={props.item_img_url}
