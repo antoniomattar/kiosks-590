@@ -1,22 +1,23 @@
 import Header from '@/components/Header';
 import Item from '@/components/Item';
+import RestoCard from '@/components/RestoCard';
 
 export default function Page() {
   return (
     <div>
       <Header />
-      <div className="flex flex-wrap justify-center p-3">
-        <Item
-          item_name="Mexican Beer"
-          item_descp="Shi ktir tayib, 3anjad."
-          item_price="6.99"
-          item_img_url="https://www.thespruceeats.com/thmb/F2AcQzlDQM36muy9kUdKa6YNQqE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-chelada-beer-recipe-353185-hero-1-a6f5cf9344004854ac86654ad171d947.jpg"
+      <div className="flex flex-wrap justify-center p-1">
+        <RestoCard
+          resto_name="Youth Bar"
+          resto_img_url="https://media-cdn.tripadvisor.com/media/photo-s/19/e8/5e/5f/wave-bar.jpg"
         />
-        <Item
-          item_name="Tacos"
-          item_descp="ingredients."
-          item_price="5.99"
-          item_img_url="https://www.challenges.fr/assets/img/2019/02/06/cover-r4x3w1200-5c5aed2c6ccc2-1d3c7813b898535d94b7ed0dae45e72a.jpg"
+        <RestoCard
+          resto_name="Pork Bar"
+          resto_img_url="https://img77.uenicdn.com/image/upload/v1668612590/business/76f7075e-dbc9-4e7f-b99f-d302846546c8.jpg"
+        />
+        <RestoCard
+          resto_name="Frooza Bar"
+          resto_img_url="https://portsoyicecream.co.uk/site/wp-content/uploads/ice-cream-collection.jpg"
         />
       </div>
     </div>
