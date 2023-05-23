@@ -22,7 +22,7 @@ export default function Page() {
   return (
     <div>
       <Header />
-      <div className=" mb-52 flex h-fit flex-wrap justify-center p-1">
+      <div className=" mb-10 flex h-fit flex-wrap justify-center p-1">
         {restaurants.map((resto) => (
           <RestoCard
             resto_name={resto.resto_name}
