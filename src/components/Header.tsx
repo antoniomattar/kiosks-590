@@ -7,8 +7,8 @@ export default function Header() {
         <Image
           src="/main_logo.jpg"
           alt="logo"
-          height={144}
-          width={144}
+          height={120}
+          width={120}
           className=" rounded-md"
         />
         {/* <h1 className="font-serif text-3xl font-bold text-white">KIOSK-٥٩٠</h1> */}
