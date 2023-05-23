@@ -6,11 +6,11 @@ import RestoCard from '@/components/RestoCard';
 const restaurants = [
   {
     resto_name: 'The Grill Station',
-    resto_img_url: '/the-grill-station.png',
+    resto_img_url: '/the-grill-station.webp',
   },
   {
     resto_name: 'The Youth Bar',
-    resto_img_url: '/the-youth-bar.png',
+    resto_img_url: '/the-youth-bar.webp',
   },
   {
     resto_name: 'MCSquare',
