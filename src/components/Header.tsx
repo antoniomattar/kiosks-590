@@ -5,7 +5,7 @@ export default function Header() {
     <header className=" bg-blue-950 py-4">
       <div className="container mx-auto flex items-center justify-center">
         <Image
-          src="/main_logo.jpg"
+          src="/main-logo.png"
           alt="logo"
           height={120}
           width={120}

@@ -5,19 +5,16 @@ import RestoCard from '@/components/RestoCard';
 
 const restaurants = [
   {
-    resto_name: 'Youth Bar',
-    resto_img_url:
-      'https://media-cdn.tripadvisor.com/media/photo-s/19/e8/5e/5f/wave-bar.jpg',
+    resto_name: 'The Grill Station',
+    resto_img_url: '/the-grill-station.png',
   },
   {
-    resto_name: 'Pork Bar',
-    resto_img_url:
-      'https://img77.uenicdn.com/image/upload/v1668612590/business/76f7075e-dbc9-4e7f-b99f-d302846546c8.jpg',
+    resto_name: 'The Youth Bar',
+    resto_img_url: '/the-youth-bar.png',
   },
   {
-    resto_name: 'Frooza Bar',
-    resto_img_url:
-      'https://portsoyicecream.co.uk/site/wp-content/uploads/ice-cream-collection.jpg',
+    resto_name: 'MCSquare',
+    resto_img_url: '/mc-square.png',
   },
 ];
 
