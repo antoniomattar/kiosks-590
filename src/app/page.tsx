@@ -7,14 +7,22 @@ const restaurants = [
   {
     resto_name: 'The Grill Station',
     resto_img_url: '/the-grill-station.webp',
+    resto_menu_path: '/menu.pdf',
   },
   {
     resto_name: 'The Youth Bar',
     resto_img_url: '/the-youth-bar.webp',
+    resto_menu_path: '/menu.pdf',
   },
   {
     resto_name: 'MCSquare',
     resto_img_url: '/mc-square.png',
+    resto_menu_path: 'https://cdn.me-qr.com/pdf/13936098.pdf',
+  },
+  {
+    resto_name: 'Frozen Smiles',
+    resto_img_url: '/frozen-smiles.webp',
+    resto_menu_path: '/menu.pdf',
   },
 ];
 
@@ -27,6 +35,7 @@ export default function Page() {
           <RestoCard
             resto_name={resto.resto_name}
             resto_img_url={resto.resto_img_url}
+            resto_menu_path={resto.resto_menu_path}
           />
         ))}
       </div>

@@ -2,7 +2,7 @@
 export default function RestoCard(props: any) {
   return (
     <div className="m-3 mx-auto w-80 rounded-xl bg-teal-600 p-3 font-mono text-white shadow-lg  shadow-black ">
-      <a href="/menu.pdf">
+      <a href={props.resto_menu_path}>
         <div className="mx-auto grid justify-center">
           <img
             src={props.resto_img_url}
