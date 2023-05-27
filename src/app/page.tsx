@@ -15,11 +15,6 @@ const restaurants = [
     resto_menu_path: '/menu.pdf',
   },
   {
-    resto_name: 'MCSquare',
-    resto_img_url: '/mc-square.png',
-    resto_menu_path: 'https://cdn.me-qr.com/pdf/13936098.pdf',
-  },
-  {
     resto_name: 'Frozen Smiles',
     resto_img_url: '/frozen-smiles.webp',
     resto_menu_path: '/menu.pdf',
