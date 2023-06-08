@@ -21,7 +21,7 @@ const restaurants = [
   },
   {
     resto_name: 'The Kaakery',
-    resto_img_url: '/the-kaakery.webp',
+    resto_img_url: '/the-kaakery.png',
     resto_menu_path: '/menu.pdf',
   },
 ];
