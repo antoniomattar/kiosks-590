@@ -6,7 +6,7 @@ import RestoCard from '@/components/RestoCard';
 const restaurants = [
   {
     resto_name: 'The Grill Station',
-    resto_img_url: '/the-grill-station.webp',
+    resto_img_url: '/the-grill-station-2.webp',
     resto_menu_path: '/menu.pdf',
   },
   {
