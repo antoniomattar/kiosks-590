@@ -20,8 +20,8 @@ const restaurants = [
     resto_menu_path: '/frozen-smiles-menu.pdf',
   },
   {
-    resto_name: 'The Kaakery',
-    resto_img_url: '/the-kaakery.png',
+    resto_name: 'The Wrapery',
+    resto_img_url: '/the-wrapery.png',
     resto_menu_path: '/menu.pdf',
   },
 ];
