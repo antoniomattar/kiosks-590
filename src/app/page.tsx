@@ -3,21 +3,22 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import RestoCard from '@/components/RestoCard';
 
+
 const restaurants = [
   {
     resto_name: 'The Grill Station',
     resto_img_url: '/the-grill-station-2.webp',
-    resto_menu_path: '/menu.pdf',
+    resto_menu_path: '/the-grill-station-menu.pdf',
   },
   {
     resto_name: 'The Youth Bar',
     resto_img_url: '/the-youth-bar.webp',
-    resto_menu_path: '/menu.pdf',
+    resto_menu_path: '/the-youth-bar-menu.pdf',
   },
   {
     resto_name: 'Frozen Smiles',
     resto_img_url: '/frozen-smiles.webp',
-    resto_menu_path: '/menu.pdf',
+    resto_menu_path: '/frozen-smiles-menu.pdf',
   },
   {
     resto_name: 'The Kaakery',
