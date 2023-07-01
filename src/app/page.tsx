@@ -22,7 +22,7 @@ const restaurants = [
   {
     resto_name: 'The Wrapery',
     resto_img_url: '/the-wrapery.png',
-    resto_menu_path: '/menu.pdf',
+    resto_menu_path: '/the-wrapery-menu.pdf',
   },
 ];
 
