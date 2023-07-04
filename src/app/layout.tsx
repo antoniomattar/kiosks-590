@@ -21,7 +21,7 @@ export default function RootLayout({
         <meta name="author" content="Antonio M" />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/main-logo.webp" />
         <title>Kiosks-590 | Food Court in Hasroun, North Lebanon</title>
       </head>
 
