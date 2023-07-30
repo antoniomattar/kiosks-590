@@ -17,12 +17,12 @@ const restaurants = [
   {
     resto_name: 'Frozen Smiles',
     resto_img_url: '/frozen-smiles.webp',
-    resto_menu_path: '/frozen-smiles-menu.pdf',
+    resto_menu_path: '/menu-1.pdf',
   },
   {
     resto_name: 'The Wrapery',
     resto_img_url: '/the-wrapery.png',
-    resto_menu_path: '/the-wrapery-menu.pdf',
+    resto_menu_path: '/george-menu.pdf',
   },
 ];
 
