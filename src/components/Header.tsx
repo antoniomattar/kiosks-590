@@ -5,7 +5,7 @@ export default function Header() {
     <header className="py-2">
       <div className="container mx-auto flex items-center justify-center">
         <Image
-          src="/main-logo.png"
+          src="/logos/main-logo.png"
           alt="logo"
           height={120}
           width={120}
