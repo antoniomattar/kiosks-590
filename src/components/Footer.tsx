@@ -6,7 +6,7 @@ export default function Footer() {
         <strong>
           <a href="https://www.instagram.com/kiosks590/">
             {' '}
-            <u className="text-teal-700">@kiosks590</u> !
+            <u className="text-red-700">@kiosks590</u> !
           </a>
         </strong>
       </footer>

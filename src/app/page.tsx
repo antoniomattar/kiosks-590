@@ -5,30 +5,30 @@ import RestoCard from '@/components/RestoCard';
 
 const restaurants = [
   {
-    resto_name: 'The Grill Station',
-    resto_img_url: '/the-grill-station-2.webp',
-    resto_menu_path: '/the-grill-station-menu.pdf',
+    resto_name: 'Porky Way',
+    resto_img_url: 'logos/porky-way.png',
+    resto_menu_path: 'menus/the-grill-station-menu.pdf',
   },
   {
     resto_name: 'The Youth Bar',
-    resto_img_url: '/the-youth-bar.webp',
-    resto_menu_path: '/the-youth-bar-menu.pdf',
+    resto_img_url: 'logos_webp/the-youth-bar.webp',
+    resto_menu_path: 'menus/the-youth-bar-menu.pdf',
   },
   {
     resto_name: 'Frozen Smiles',
-    resto_img_url: '/frozen-smiles.webp',
-    resto_menu_path: '/menu-1.pdf',
+    resto_img_url: 'logos_webp/frozen-smiles.webp',
+    resto_menu_path: 'menus/menu-1.pdf',
   },
   {
     resto_name: 'The Wrapery',
-    resto_img_url: '/the-wrapery.png',
-    resto_menu_path: '/george-menu.pdf',
+    resto_img_url: 'logos/the-wrapery.png',
+    resto_menu_path: 'menus/george-menu.pdf',
   },
 ];
 
 export default function Page() {
   return (
-    <div>
+    <div className="bg-gray-200">
       <Header />
       <div className=" mb-10 flex h-fit flex-wrap justify-center p-1">
         {restaurants.map((resto) => (

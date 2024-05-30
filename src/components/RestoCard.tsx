@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 export default function RestoCard(props: any) {
   return (
-    <div className="m-3 mx-auto w-80 rounded-xl bg-teal-600 p-3 font-mono text-white shadow-lg  shadow-black ">
+    <div className="m-3 mx-auto w-80 rounded-xl p-3 font-mono text-white">
       <a href={props.resto_menu_path}>
         <div className="mx-auto grid justify-center">
           <img
@@ -11,7 +11,7 @@ export default function RestoCard(props: any) {
             className=" mx-auto w-32 rounded object-cover"
             alt="food"
           />
-          <p className="mt-2 text-center text-lg font-bold">
+          <p className="mt-2 rounded-xl bg-red-700 p-3 text-center text-lg font-bold shadow-lg shadow-black">
             {props.resto_name}
           </p>
         </div>

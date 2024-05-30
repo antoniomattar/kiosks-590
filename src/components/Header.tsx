@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className=" bg-blue-950 py-4">
+    <header className="py-2">
       <div className="container mx-auto flex items-center justify-center">
         <Image
           src="/main-logo.png"
