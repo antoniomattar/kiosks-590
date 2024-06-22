@@ -28,7 +28,7 @@ const restaurants = [
 
 export default function Page() {
   return (
-    <div className="bg-gray-200">
+    <div className=" h-full min-h-screen bg-gray-200">
       <Header />
       <div className=" mb-10 flex h-fit flex-wrap justify-center p-1">
         {restaurants.map((resto) => (
