@@ -7,7 +7,7 @@ const restaurants = [
   {
     resto_name: 'Porky Way',
     resto_img_url: 'logos/porky-way.png',
-    resto_menu_path: 'menus/the-grill-station-menu.pdf',
+    resto_menu_path: 'menus/the-porky-way-menu.pdf',
   },
   {
     resto_name: 'The Youth Bar',
@@ -17,12 +17,12 @@ const restaurants = [
   {
     resto_name: 'Frozen Smiles',
     resto_img_url: 'logos_webp/frozen-smiles.webp',
-    resto_menu_path: 'menus/menu-1.pdf',
+    resto_menu_path: 'menus/frozen-smiles-menu.pdf',
   },
   {
     resto_name: 'The Wrapery',
     resto_img_url: 'logos/the-wrapery.png',
-    resto_menu_path: 'menus/george-menu.pdf',
+    resto_menu_path: 'menus/the-wrapery-menu.pdf',
   },
 ];
 
